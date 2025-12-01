@@ -1,18 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>BytePix Website</title>
         <link type="text/css" rel="stylesheet" href="css/style.css"/>
     </head>
     <body>
-        <h1>Welcome to BytePix's website</h1>
-        <p>I am <strong>BytePix</strong> and I'm the one that coded this website.</p>
-        <p>This was made with the book "Coderdojo Nano: Build Your Own Website: Create with Code" =D and it's the only reason</p>
-        <h2>Click these links to go to other webpages.</h2>
-        <ul>
-            <li><a href="about.html">About Me</a></li>
-        </ul>
-        <p><img src="images/pikachu-cat.jpg" alt="Cute cat in Pikachu hat"/></p>
+        <header class="header">
+            <h1>Welcome to BytePix's Website</h1>
+            <nav>
+                <ul class="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main class="content">
+            <p>I am <strong>BytePix</strong> and I'm the one that coded this website.</p>
+            <p>This was made with the book "Coderdojo Nano: Build Your Own Website: Create with Code" =D and it's the only reason I know how to make websites!</p>
+            
+            <h2>Check out my cute cat!</h2>
+            <div class="image-container">
+                <img src="images/pikachu-cat.jpg" alt="Cute cat in Pikachu hat"/>
+            </div>
+        </main>
+        
+        <footer class="footer">
+            <p>&copy; 2024 BytePix. Made with ❤️</p>
+        </footer>
     </body>
-
 </html>
